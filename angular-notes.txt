@@ -1,0 +1,31 @@
+package.jsom- has all the dependencies  and commands
+
+
+
+src/
+    src/app is where all the components and services go
+        index.html host the html of the component 
+            all html is generated using the javascript bundle
+            within the html using {{}} one can reference variables and even do javascript
+        app.component
+            export class AppComponent- has space to add methods and properties
+    src/(any created component)
+        //each component has a Life-cycle with 8 different hook events in sussesion https://dzone.com/articles/angular-6-part-3-life-cycle-of-a-component#:~:text=Lifecycle%20Method,called%20as%20lifecycle%20hook%20event. 
+        
+    styles holds css styling globally        
+            
+    src/main is the main of the app which has components
+
+
+commands-
+    ng generate component {name of component here} //generates the component
+                                                  ^after it you can specify where
+
+
+how to use components-
+    injecting html in components works by using the selector of each component
+
+    input - check button component
+    output- 
+         @Output() toggle = new EventEmitter(); 
+            

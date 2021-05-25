@@ -1,0 +1,18 @@
+<header>
+    
+    <app-button 
+    (btnClick)= "toggleAddTask()" 
+    ></app-button>
+    <!-- btnClick after being emitted is caught here and then calls this function toggleAddTask -->
+    {{counter}}
+
+    <app-button 
+    text = "Subtract"
+    color = {{color}}
+    (btnClick) = "subtract()"
+    ></app-button>
+</header>
+
+
+
+<!-- btnClick is an output emitter that is in button components, it is caught in the header component toggles the function toggleAddTask() in the header component  -->
