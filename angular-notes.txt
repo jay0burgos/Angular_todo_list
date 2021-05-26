@@ -29,8 +29,17 @@ how to use components-
     output- 
          @Output() toggle = new EventEmitter(); 
 
+How to use services-
+    services
+        @injectable--> decorator that tells angular that dependencies 
+    To use- add as a providor into the constructor and call it on ngOnInit since it calls it on initialization
+
 javascript w/in html
     directives
         *ngFor
+            exp-----> <p *ngFor="let task of tasks" >{{task.text}}</p> //for loop 
         *ngStyle - for styling within button clause
-           exp-----> <p *ngFor="let task of tasks" >{{task.text}}</p> //for loop 
+
+
+fonts
+
