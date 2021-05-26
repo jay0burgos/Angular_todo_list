@@ -28,4 +28,9 @@ how to use components-
     input - check button component
     output- 
          @Output() toggle = new EventEmitter(); 
-            
+
+javascript w/in html
+    directives
+        *ngFor
+        *ngStyle - for styling within button clause
+           exp-----> <p *ngFor="let task of tasks" >{{task.text}}</p> //for loop 

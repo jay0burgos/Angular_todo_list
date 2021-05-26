@@ -1,6 +1,6 @@
 import{Task} from './Task'
 
-export const TASKS = [
+export const TASKS:Task[] = [ //since this is an array of type Task
     {
         id: 1,
         text: 'Doctors Appointment',
@@ -18,5 +18,11 @@ export const TASKS = [
         text: 'Food Shopping',
         day: 'May 7th at 12:30pm',
         reminder: false,
+      },
+      {
+        id:3,
+        text: 'Finish website',
+        day: 'May 8th at 12:30pm',
+        reminder: true,
       },
 ]
